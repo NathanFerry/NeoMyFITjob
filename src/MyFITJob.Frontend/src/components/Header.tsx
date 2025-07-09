@@ -1,5 +1,5 @@
-import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
-import { Badge } from './ui/badge'
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Badge } from "./ui/badge";
 
 export function Header() {
   return (
@@ -9,17 +9,17 @@ export function Header() {
           <h1 className="text-xl font-bold">MyFITJob</h1>
           <Badge variant="secondary">TD CI/CD</Badge>
         </div>
-        
+
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <Avatar className="h-8 w-8">
               <AvatarImage src="/avatar-placeholder.png" alt="Avatar" />
-              <AvatarFallback>TODO</AvatarFallback>
+              <AvatarFallback>Nathan</AvatarFallback>
             </Avatar>
-            <span className="text-sm font-medium">TODO</span>
+            <span className="text-sm font-medium">Nathan</span>
           </div>
         </div>
       </div>
     </header>
-  )
-} 
+  );
+}
